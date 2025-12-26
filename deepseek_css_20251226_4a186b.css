@@ -1,0 +1,58 @@
+/* ESTILOS PARA DESTAQUE E EXPANSÃO */
+.highlight {
+    background-color: rgba(59, 130, 246, 0.3);
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.scroll-to-highlight {
+    animation: pulse-highlight 2s infinite;
+}
+
+@keyframes pulse-highlight {
+    0%, 100% { background-color: rgba(59, 130, 246, 0.3); }
+    50% { background-color: rgba(59, 130, 246, 0.6); }
+}
+
+/* ESTILOS PARA PARCELAS EXPANDIDAS */
+.parcela-expandida {
+    border-left: 4px solid #3b82f6;
+    margin-top: 10px;
+}
+
+.parcela-individual {
+    border: 1px solid #374151;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 5px;
+    background: rgba(30, 41, 59, 0.5);
+}
+
+/* ESTILOS PARA GRAFICOS VAZIOS */
+.chart-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    color: #9CA3AF;
+    font-style: italic;
+}
+
+/* ESTILOS PARA BOTÕES DE TAG */
+.tag-button {
+    transition: all 0.2s ease;
+}
+
+.tag-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.tag-notificado { background-color: #ef4444; }
+.tag-ajuizado { background-color: #f97316; }
+.tag-acordo { background-color: #10b981; }
+.tag-parceiro { background-color: #3b82f6; }
+.tag-prescrito { background-color: #8b5cf6; }
+.tag-inferior { background-color: #6b7280; }
+.tag-negociacao { background-color: #f59e0b; }
+.tag-negociar { background-color: #6366f1; }
